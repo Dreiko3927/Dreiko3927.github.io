@@ -63,9 +63,8 @@ app.controller('BingoController',['$scope',function($scope){
       }
       $scope.go.push(array);
     }
-    $scope.events=["Claire Grades", "Camielle Grades", "How Busy We Are","SAS Soccer Team","Thanksgiving in Michigan", "FOOTBALL", "Claire Internship", "Camielle Internship", "Claire Extracurriculars", "Camielle Extracurriculars", "Claire Housing", "Camielle Housing","Vacation", "New Dessert We Made", "The Turkey"];
+    $scope.events=["Claire Grades", "Camielle Grades","NC State", "How Busy We Are","SAS Soccer Team","Thanksgiving in Michigan", "FOOTBALL", "Claire Internship", "Camielle Internship", "Claire Extracurriculars", "Camielle Extracurriculars", "Claire Housing", "Camielle Housing","Vacation", "New Dessert We Made", "The Turkey"];
     $scope.shuffled=shuffle($scope.events);
-    $scope.shuffled.splice(6,0,"FREE");
     for(var i=0;i<$scope.h;i++){
       for(var j=0;j<$scope.w;j++){
         $scope.go[i][j]=0;
