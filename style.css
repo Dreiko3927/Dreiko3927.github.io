@@ -1,0 +1,19 @@
+.container{
+  border-width: medium;
+border-color: black;
+margin-top:50px;
+margin:auto;
+display:inline-block;
+text-align: center;
+width:100%;
+}
+
+
+.bing{
+  width:100px;
+  height:100px;
+  margin:10px;
+  display:inline-block;
+  background-color:red;
+  color:white;
+}
