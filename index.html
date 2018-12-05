@@ -1,13 +1,14 @@
 <head>
   <link rel="stylesheet" href="style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
-  <script src="script.js"></script>
+  <script
+              src="https://code.jquery.com/jquery-3.3.1.min.js"
+              integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+              crossorigin="anonymous"></script>
+              <script src="script.js"></script>
+
   </head>
 
-  <body ng-app="Bingo">
-    <div class="container" ng-controller="BingoController">
-      <div class="row" ng-repeat="row in rows">
-        <button ng-click="click($event)" class="bing" ng-repeat="bing in go" id="Bingo{{$index+($parent.$index*h)}}">{{shuffled[$index+($parent.$index*h)]}}</button>
-        </div>
-        </div>
-        </body>
+<body ng-app="Script" ng-controller="ScriptController">
+  <button ng-click="go()"> Go </button>
+  </body>
